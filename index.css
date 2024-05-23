@@ -1,0 +1,116 @@
+body {
+  margin: 0px 360px;
+}
+
+#hero-section {
+  background-image: url(images/torshov-image.jpg);
+  width: 720px;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  background-color: rgba(29, 53, 87, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+#hero-des {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(69, 123, 157, 1);
+  width: 412px;
+  height: 52px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 4px 2px 0px 2px;
+  border-radius: 16px;
+  margin-top: 8px;
+}
+
+/*******activites-section******/
+#activities-section {
+  background-color: rgba(241, 250, 238, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(29, 53, 87, 1);
+  width: 720px;
+}
+
+#cards-activities {
+  display: flex;
+  text-align: center;
+}
+
+.cards {
+  width: 198px;
+  height: 226px;
+  margin: 54px 3px 38px 3px;
+}
+
+#activities-h2 {
+  margin-top: 38px;
+  margin-bottom: 5px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-des {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card-img {
+  border-radius: 50%;
+}
+
+/***********guide-section************/
+#guide {
+  width: 720px;
+}
+
+#guide-section {
+  background-color: rgba(168, 218, 220, 1);
+  width: 400px;
+  height: 294px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 6px rgba(29, 53, 87, 1);
+}
+
+#guide-img {
+  width: 180px;
+  height: 248px;
+  padding-left: 13px;
+}
+
+.guide-des {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.guide-description {
+  font-size: 16sp;
+}
+
+#guide-des-1 {
+  font-weight: 400;
+}
+
+#guide-des-2 {
+  font-weight: 700;
+}
